@@ -1,7 +1,6 @@
-import { UserRegister } from '@jesse-johnson/shared/ngx-utility/authentication';
 import { Injectable } from '@angular/core';
 import { AuthService } from './auth.service';
-import { UserLogin, User } from './auth.models';
+import { UserLogin, User, UserRegister } from './auth.models';
 import { Observable, of } from 'rxjs';
 
 @Injectable({
