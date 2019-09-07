@@ -1,14 +1,14 @@
 import { async, TestBed } from '@angular/core/testing';
-import { SharedLoggerModule } from './shared-logger.module';
+import { NgxLoggerModule } from './ngx-logger.module';
 
-describe('SharedLoggerModule', () => {
+describe('NgxLoggerModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [SharedLoggerModule]
+      imports: [NgxLoggerModule]
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(SharedLoggerModule).toBeDefined();
+    expect(NgxLoggerModule).toBeDefined();
   });
 });

@@ -1,1 +1,1 @@
-export * from './lib/shared-logger.module';
+export * from './lib/ngx-logger.module';

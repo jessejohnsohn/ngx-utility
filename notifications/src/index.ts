@@ -1,1 +1,1 @@
-export * from './lib/shared-utility-notifications.module';
+export * from './lib/ngx-utility-notifications.module';

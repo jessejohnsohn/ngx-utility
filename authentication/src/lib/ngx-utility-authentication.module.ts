@@ -6,10 +6,10 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 @NgModule({
   imports: [CommonModule, AngularFireAuthModule]
 })
-export class SharedUtilityAuthenticationModule {
+export class NgxUtilityAuthenticationModule {
   static forRoot(authProvider: { useClass: Type<any> }): ModuleWithProviders {
     return {
-      ngModule: SharedUtilityAuthenticationModule,
+      ngModule: NgxUtilityAuthenticationModule,
       providers: [
         {
           provide: AuthService,

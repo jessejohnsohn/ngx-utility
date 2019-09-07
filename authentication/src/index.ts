@@ -1,4 +1,4 @@
-export * from './lib/shared-utility-authentication.module';
+export * from './lib/ngx-utility-authentication.module';
 export { AuthService, IdentityProviders } from './lib/auth.service';
 export {
   UserLogin,
