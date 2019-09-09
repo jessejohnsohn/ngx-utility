@@ -7,3 +7,4 @@ export {
   User
 } from './lib/auth.models';
 export { FirebaseAuthService } from './lib/firebase-auth.service';
+export { AuthTestingService } from './lib/auth-testing.service';
